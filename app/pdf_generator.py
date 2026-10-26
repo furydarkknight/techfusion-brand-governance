@@ -117,7 +117,7 @@ def generate_round2_submission_pdf(output_path: str = None) -> bytes:
         ],
         [
             Paragraph("<b>Team Members:</b><br/>• Yash Singla (Leader — Product & Integration)<br/>• Rishit Negi (Review-Engine Logic)<br/>• Ramandeep Singh (Platform & Workflow)<br/>• Aditya Sharma (UX, Testing & Demo Readiness)", meta_style),
-            Paragraph("<b>Submission Artifacts:</b><br/>• Live Deployed System: http://127.0.0.1:8000<br/>• Source Repository: https://github.com/techfusion-core/brand-governance<br/>• Audit Engine: TechFusion Guardrail v2.4", meta_style)
+            Paragraph("<b>Submission Artifacts:</b><br/>• Live Deployed System: Render Cloud & Local Port 8000<br/>• Source Repository: https://github.com/furydarkknight/techfusion-brand-governance<br/>• Audit Engine: TechFusion Guardrail v2.4", meta_style)
         ]
     ]
     meta_table = Table(meta_data, colWidths=[260, 270])

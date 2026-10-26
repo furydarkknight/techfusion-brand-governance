@@ -21,18 +21,30 @@ cd techfusion
 python -m pip install -r requirements.txt
 ```
 
-### 2. Run Application
+### 2. Run Application Locally
 ```bash
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+# or simply:
+python run_server.py
 ```
 Open **[http://127.0.0.1:8000](http://127.0.0.1:8000)** in your browser.
+
+### 3. Deploy on Render
+This repository includes a `render.yaml` blueprint and dynamic port binding:
+1. Go to **[Render Dashboard](https://dashboard.render.com/)** -> **New** -> **Web Service**.
+2. Connect your GitHub repository: `https://github.com/furydarkknight/techfusion-brand-governance.git`.
+3. Configure the settings:
+   * **Runtime:** `Python 3`
+   * **Build Command:** `pip install -r requirements.txt`
+   * **Start Command:** `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+4. Click **Deploy Web Service**.
 
 ---
 
 ## 📋 What We Have Submitted (Round 2 Deliverables)
 
-1. **Working Project Link:** [http://127.0.0.1:8000](http://127.0.0.1:8000) (or deployed cloud instance)
-2. **Source-Code Repository:** `https://github.com/techfusion-core/brand-governance`
+1. **Working Project Link:** Render Live Deployed URL & [http://127.0.0.1:8000](http://127.0.0.1:8000)
+2. **Source-Code Repository:** `https://github.com/furydarkknight/techfusion-brand-governance.git`
 3. **Updated Project PDF:** Available in the repo as `TechFusion_Round2_Submission_Report.pdf` (or via one-click download directly inside the app navigation bar)
 4. **List of Completed Features:** (See Section Below)
 5. **Technology and Implementation Details:** Decoupled FastAPI backend, Deterministic Guardrail Engine v2.4, Tailwind CSS, Chart.js, ReportLab PDF Generator.
