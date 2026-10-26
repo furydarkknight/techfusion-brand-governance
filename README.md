@@ -43,9 +43,11 @@ This repository includes a `render.yaml` blueprint and dynamic port binding:
 
 ## 📋 What We Have Submitted (Round 2 Deliverables)
 
-1. **Working Project Link:** Render Live Deployed URL & [http://127.0.0.1:8000](http://127.0.0.1:8000)
-2. **Source-Code Repository:** `https://github.com/furydarkknight/techfusion-brand-governance.git`
-3. **Updated Project PDF:** Available in the repo as `TechFusion_Round2_Submission_Report.pdf` (or via one-click download directly inside the app navigation bar)
+1. **Working Project Link:** **[https://techfusion-brand-governance.onrender.com](https://techfusion-brand-governance.onrender.com)**  
+   *(Note: Since this is hosted on Render's free tier, the first request may take approximately 50 seconds to wake up from idle sleep).*  
+   *(Local mirror: [http://127.0.0.1:8000](http://127.0.0.1:8000))*
+2. **Source-Code Repository:** **[https://github.com/furydarkknight/techfusion-brand-governance.git](https://github.com/furydarkknight/techfusion-brand-governance.git)**
+3. **Updated Project PDF:** Available in the repo as `TechFusion_Round2_Submission_Report.pdf` (or via one-click download directly inside the live app navigation bar)
 4. **List of Completed Features:** (See Section Below)
 5. **Technology and Implementation Details:** Decoupled FastAPI backend, Deterministic Guardrail Engine v2.4, Tailwind CSS, Chart.js, ReportLab PDF Generator.
 6. **Explanation of Changes Made to Original Plan:** (See Section Below)
@@ -137,7 +139,7 @@ The following three additions will be implemented for Round 3:
 
 ## ⏱️ 60-Second Judges' Evaluation Walkthrough
 
-1. Go to **[http://127.0.0.1:8000](http://127.0.0.1:8000)**.
+1. Open **[https://techfusion-brand-governance.onrender.com](https://techfusion-brand-governance.onrender.com)** *(Note: Render free tier takes ~50 seconds to boot on first request)* or local **[http://127.0.0.1:8000](http://127.0.0.1:8000)**.
 2. In the **Live Review Studio**, click **"Risky Launch Copy (8 Issues)"** demo preset.
 3. Click **"Run Brand Audit"**. Inspect the score drop to **42/100**, with 8 issues flagged across claims, tone, and terminology.
 4. Click **"Apply All Suggestions"** and re-run audit. Watch score soar to **98/100**.

@@ -117,7 +117,7 @@ def generate_round2_submission_pdf(output_path: str = None) -> bytes:
         ],
         [
             Paragraph("<b>Team Members:</b><br/>• Yash Singla (Leader — Product & Integration)<br/>• Rishit Negi (Review-Engine Logic)<br/>• Ramandeep Singh (Platform & Workflow)<br/>• Aditya Sharma (UX, Testing & Demo Readiness)", meta_style),
-            Paragraph("<b>Submission Artifacts:</b><br/>• Live Deployed System: Render Cloud & Local Port 8000<br/>• Source Repository: https://github.com/furydarkknight/techfusion-brand-governance<br/>• Audit Engine: TechFusion Guardrail v2.4", meta_style)
+            Paragraph("<b>Submission Artifacts:</b><br/>• Live Deployed System: https://techfusion-brand-governance.onrender.com<br/>&nbsp;&nbsp;<i>(Note: Render free tier may take ~50s on initial cold start)</i><br/>• Source Repository: https://github.com/furydarkknight/techfusion-brand-governance<br/>• Audit Engine: TechFusion Guardrail v2.4", meta_style)
         ]
     ]
     meta_table = Table(meta_data, colWidths=[260, 270])
@@ -270,7 +270,7 @@ def generate_round2_submission_pdf(output_path: str = None) -> bytes:
         "Judges can verify the entire product workflow in under 60 seconds without technical setup:",
         body_style
     ))
-    story.append(Paragraph("<b>Step 1:</b> Open <code>http://127.0.0.1:8000</code> in any web browser.", bullet_style))
+    story.append(Paragraph("<b>Step 1:</b> Open <code>https://techfusion-brand-governance.onrender.com</code> in any browser (or local <code>http://127.0.0.1:8000</code>). <i>Note: It may take about 50 seconds to load initially as Render spins up the free tier service.</i>", bullet_style))
     story.append(Paragraph("<b>Step 2:</b> In the <b>Live Review Studio</b>, click <i>'Load Risky Launch Announcement'</i> demo preset and click <b>'Run Brand Audit'</b>. Observe the multi-category score drop to 42/100, displaying 8 flagged issues with verified citations.", bullet_style))
     story.append(Paragraph("<b>Step 3:</b> Click <b>'Apply All Purpose-Preserved Corrections'</b>. Watch the text transform automatically into compliant enterprise copy and the score rise to 98/100.", bullet_style))
     story.append(Paragraph("<b>Step 4:</b> Switch user role from <i>Creator</i> to <i>Brand Reviewer</i> in the top bar. Add an official sign-off comment and click <b>'Approve & Certify'</b>.", bullet_style))
