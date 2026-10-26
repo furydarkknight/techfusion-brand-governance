@@ -163,13 +163,13 @@ class Database:
                     "Best of all, our pricing is cheap and our setup is totally foolproof! "
                     "Before deployment, our engineers do a quick sanity check and update the server blacklist."
                 ),
-                "author": "Yash Singla (Creator)",
+                "author": "Yash Singhla (Creator)",
                 "created_at": "2026-10-24 14:30:00",
                 "status": "CHANGES_REQUESTED",
                 "score": 42,
                 "findings_count": 8,
                 "history": [
-                    {"timestamp": "2026-10-24 14:30:00", "user": "Yash Singla", "action": "Submitted Draft v1 for Review"},
+                    {"timestamp": "2026-10-24 14:30:00", "user": "Yash Singhla", "action": "Submitted Draft v1 for Review"},
                     {"timestamp": "2026-10-24 14:35:12", "user": "TechFusion AI Engine", "action": "Automated Brand Audit complete (Score: 42/100)"},
                     {"timestamp": "2026-10-24 15:10:00", "user": "Aditya Sharma (Reviewer)", "action": "Requested Revisions: Flagged 3 unverified claims and 5 tone violations."}
                 ],
@@ -183,7 +183,7 @@ class Database:
                     },
                     {
                         "id": "c2",
-                        "author": "Yash Singla",
+                        "author": "Yash Singhla",
                         "role": "Creator",
                         "timestamp": "2026-10-24 15:15:40",
                         "text": "Understood Aditya! I will use the 1-click suggested corrections and submit v2 for approval."
@@ -222,7 +222,7 @@ class Database:
         ]
 
         self.audit_log = [
-            {"id": "LOG-101", "timestamp": "2026-10-26 09:30:12", "user": "Yash Singla", "action": "Updated Brand Guideline GL-CLAIM-01 to version 2.3"},
+            {"id": "LOG-101", "timestamp": "2026-10-26 09:30:12", "user": "Yash Singhla", "action": "Updated Brand Guideline GL-CLAIM-01 to version 2.3"},
             {"id": "LOG-102", "timestamp": "2026-10-26 09:45:00", "user": "Rishit Negi", "action": "Added Approved Fact FACT-05 (Customer Support Response Time)"},
             {"id": "LOG-103", "timestamp": "2026-10-26 10:12:44", "user": "Ramandeep Singh", "action": "Approved Whitepaper DRAFT-2026-002"},
             {"id": "LOG-104", "timestamp": "2026-10-26 10:20:18", "user": "Aditya Sharma", "action": "Initiated Governance Drift Analysis across all team assets"}

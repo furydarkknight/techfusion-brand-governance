@@ -116,7 +116,7 @@ def generate_round2_submission_pdf(output_path: str = None) -> bytes:
             Paragraph("<b>Date:</b> October 26, 2026", meta_style)
         ],
         [
-            Paragraph("<b>Team Members:</b><br/>• Yash Singla (Leader — Product & Integration)<br/>• Rishit Negi (Review-Engine Logic)<br/>• Ramandeep Singh (Platform & Workflow)<br/>• Aditya Sharma (UX, Testing & Demo Readiness)", meta_style),
+            Paragraph("<b>Team Members:</b><br/>• Yash Singhla (Leader — Product & Integration)<br/>• Rishit Negi (Review-Engine Logic)<br/>• Ramandeep Singh (Platform & Workflow)<br/>• Aditya Sharma (UX, Testing & Demo Readiness)", meta_style),
             Paragraph("<b>Submission Artifacts:</b><br/>• Live Deployed System: https://techfusion-brand-governance.onrender.com<br/>&nbsp;&nbsp;<i>(Note: Render free tier may take ~50s on initial cold start)</i><br/>• Source Repository: https://github.com/furydarkknight/techfusion-brand-governance<br/>• Audit Engine: TechFusion Guardrail v2.4", meta_style)
         ]
     ]
@@ -278,7 +278,7 @@ def generate_round2_submission_pdf(output_path: str = None) -> bytes:
 
     story.append(Spacer(1, 10))
     story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#CBD5E1"), spaceBefore=4, spaceAfter=8))
-    story.append(Paragraph("<i>Prepared by Team TechFusion · Yash Singla, Rishit Negi, Ramandeep Singh, Aditya Sharma · October 2026</i>", meta_style))
+    story.append(Paragraph("<i>Prepared by Team TechFusion · Yash Singhla, Rishit Negi, Ramandeep Singh, Aditya Sharma · October 2026</i>", meta_style))
 
     doc.build(story)
     if output_path:
@@ -376,7 +376,7 @@ def generate_audit_certificate_pdf(draft_data: dict, audit_result: dict) -> byte
     story.append(Paragraph("Authorisation & Audit Sign-Off", h2_style))
     sign_data = [
         [
-            Paragraph("<b>Creator Signature:</b><br/><br/>______________________<br/>Yash Singla", body_style),
+            Paragraph("<b>Creator Signature:</b><br/><br/>______________________<br/>Yash Singhla", body_style),
             Paragraph("<b>Brand Lead Signature:</b><br/><br/>______________________<br/>Aditya Sharma", body_style),
             Paragraph("<b>Compliance Officer:</b><br/><br/>______________________<br/>Ramandeep Singh", body_style)
         ]

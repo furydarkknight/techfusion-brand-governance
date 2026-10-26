@@ -60,7 +60,7 @@ function setTab(tabName) {
 function switchRole(roleKey) {
   currentRole = roleKey;
   if (roleKey === 'creator') {
-    currentRoleUser = 'Yash Singla (Creator)';
+    currentRoleUser = 'Yash Singhla (Creator)';
   } else if (roleKey === 'reviewer') {
     currentRoleUser = 'Aditya Sharma (Reviewer)';
   } else {
