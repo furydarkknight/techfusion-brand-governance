@@ -5,7 +5,7 @@
 ---
 
 ## 👥 Team TechFusion
-- **Yash Singla** — Team Leader · Product Vision, System Architecture & Integration
+- **Yash Singhla** — Team Leader · Product Vision, System Architecture & Integration
 - **Rishit Negi** — Review-Engine Logic · Heuristic Tokenizer & Flesch NLP Analyzer
 - **Ramandeep Singh** — Platform & Workflow · Role-Based Approvals, Audit Logging & PDF Engine
 - **Aditya Sharma** — UX, Testing & Demo Readiness · UI Design, Charts & Validation
