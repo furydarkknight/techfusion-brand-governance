@@ -34,17 +34,8 @@
           </div>
         </div>
 
-        <!-- Role Switcher & Judge Controls -->
+        <!-- Header Actions -->
         <div class="flex items-center space-x-3">
-          <div class="hidden md:flex items-center space-x-2 bg-indigo-900/60 border border-indigo-700/60 px-3 py-1.5 rounded-lg text-xs">
-            <span class="text-indigo-300 font-medium"><i class="ph ph-user-circle mr-1"></i> Active Role:</span>
-            <select id="role-select" onchange="switchRole(this.value)" class="bg-indigo-800 text-white font-semibold rounded px-2 py-0.5 outline-none border border-indigo-600 focus:ring-1 focus:ring-cyan-400 text-xs">
-              <option value="creator">Creator (Yash Singla)</option>
-              <option value="reviewer" selected>Reviewer / Legal (Aditya Sharma)</option>
-              <option value="manager">Brand Manager (Ramandeep Singh)</option>
-            </select>
-          </div>
-
           <a href="/api/download/submission-pdf" download class="inline-flex items-center space-x-1.5 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white text-xs font-semibold px-3.5 py-2 rounded-lg shadow-md transition-all">
             <i class="ph-bold ph-file-pdf text-base"></i>
             <span>Submission PDF</span>
